@@ -191,7 +191,7 @@ $('.checkout-button').click(function() {
   var dba=$(this).data('sku');
   var testidx = getCookie('testid'); //change this to the id of the active test
   var v = getCookie('vsltest');
-  if (v != '') {
+  if (v !== '') {
     var p = getCookie('rec');
     vrecordCheckout(p);
   }
@@ -218,7 +218,7 @@ $('.checkout-button').click(function() {
     var dba=$(this).data('sku');
     var testidx = getCookie('testid'); //change this to the id of the active test
     var v = getCookie('vsltest');
-    if (v != '') {
+    if (v !== '') {
       var p = getCookie('rec');
       vrecordCheckout(p);
     }
